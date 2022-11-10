@@ -1,0 +1,83 @@
+:root {
+  --branding-color: #000000;
+  --primary-color: #ffffff;
+  --secondary-color: #ecec06;
+  --tertiary-color: rgb(238, 238, 238);
+  --bg-color: #888686;
+  --prime-color: #e0e0eb;
+  --box-shadow: 1px 1px 5px 5px #8b8687;
+  --gradient-color: linear-gradient(
+    60.3deg,
+    rgb(136, 134, 134) 40%,
+    rgb(221, 218, 218) 60%
+  );
+}
+.name-tag {
+  color: var(--branding-color);
+  margin-top: 20px;
+  padding: 50px;
+}
+.page {
+  border: 12px solid var(--primary-color);
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.b-1 {
+  background-color: var(--bg-color);
+  width: 700px;
+  height: 600px;
+}
+.b-2 {
+  background-color: var(--tertiary-color);
+  width: 400px;
+  height: 600px;
+}
+.page-content {
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -450px;
+  margin-left: 500px;
+  position: relative;
+}
+.b-3 {
+  background-color: var(--primary-color);
+  width: 500px;
+  height: 200px;
+  margin-top: ;
+}
+.b-4 {
+  background-color: var(--secondary-color);
+  width: 500px;
+  height: 150px;
+}
+.b-5 {
+  height: 50px;
+  width: 500px;
+  background-color: var(--branding-color);
+}
+
+.name {
+  margin-left: 250px;
+  margin-top: 1px;
+}
+h1,
+h2 {
+}
+body {
+  background-color: var(--prime-color);
+}
+@media (max-width: 900) {
+  .page {
+    max-width: 700px;
+  }
+
+  .page-content {
+    max-width: 250px;
+    margin-left: 10px;
+  }
+}
