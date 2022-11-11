@@ -41,7 +41,7 @@
   display: block;
   margin: 0 auto;
   margin-top: -450px;
-  margin-left: 500px;
+  margin-left: 600px;
   position: relative;
 }
 .b-3 {
@@ -64,12 +64,17 @@
 .name {
   margin-left: 250px;
   margin-top: 1px;
+  font-family: "Bungee Inline", cursive;
+}
+.post {
+  font-family: "Poppins", sans-serif;
 }
 h1,
 h2 {
 }
 body {
-  background-color: var(--prime-color);
+  background-image: url("/images/bg-image.jpg");
+  background-size: cover;
 }
 @media (max-width: 900) {
   .page {
