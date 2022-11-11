@@ -41,8 +41,17 @@
   display: block;
   margin: 0 auto;
   margin-top: -450px;
-  margin-left: 600px;
+  margin-left: 630px;
   position: relative;
+}
+.hello {
+  color: var(--primary-color);
+}
+.link,
+.hello {
+  max-width: 350px;
+  font-family: "Playfair Display", serif;
+  font-size: larger;
 }
 .b-3 {
   background-color: var(--primary-color);
@@ -68,9 +77,6 @@
 }
 .post {
   font-family: "Poppins", sans-serif;
-}
-h1,
-h2 {
 }
 body {
   background-image: url("/images/bg-image.jpg");
