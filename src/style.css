@@ -17,6 +17,16 @@
   margin-top: 20px;
   padding: 50px;
 }
+.hello {
+  display: block;
+  margin: 0 auto;
+}
+#contact-link {
+  font-size: 50px;
+  text-align: center;
+  color: var(--plus-color);
+  margin-top: 70px;
+}
 .page {
   border: 12px solid var(--primary-color);
   max-width: 1000px;
@@ -82,13 +92,42 @@ body {
   background-image: url("/images/bg-image.jpg");
   background-size: cover;
 }
+.happie {
+  font-weight: bolder;
+}
+.col-2 {
+  margin: 10px;
+}
+
+.skills {
+  background-color: var(--prime-color);
+  margin: 30px;
+}
+
+.acquired {
+  font-weight: bolder;
+  font-family: "Playfair Display", serif;
+}
+
+.about-me {
+  font-weight: bolder;
+  font-family: "Playfair Display", serif;
+}
+.intro {
+  font-size: 20px;
+  padding: 30px;
+  font-family: "Playfair Display", serif;
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+  margin: 10px;
+}
 @media (max-width: 900) {
   .page {
     max-width: 700px;
   }
 
   .page-content {
-    max-width: 250px;
+    margin-top: 600px;
     margin-left: 10px;
   }
 }
